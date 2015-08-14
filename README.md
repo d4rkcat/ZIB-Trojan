@@ -1,5 +1,3 @@
-# ZIB-Trojan
-The Open Tor Botnet
 -----------------------------
 Name
 --
@@ -53,4 +51,37 @@ Email: whitepacket@sigaint.org
 Jabber: whitepacket@fuckav.in
 Twitter: @WhitePacket
 BTC address: 1QASXpprwocj7Y65DghSjjgTXxrUHe6XEN (used to support my whitehat activities and successful completion of my endeavors).
+PGP key:
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQENBFXNfgwBCACtq4nznr/SVM57LSgeXy+DfmdBIkUTi0mCHrY2nI1ekYHHozeW
+FCo1yacPx7TzGQ6wILvHvgt8yKi8ke1FAGGA7O2fCCNNJ3j7jibhWI9LSUGNa5DO
+Ek3iv4UsDS+QuZq1s+4cDA6E028a17JXW1Vtq/29Oy4f8B6MiBBFfe33pIBP0/az
+FZg821A2IvRo1vNDNHMKM/RkOLmGI+bzl55wFp/5r5c80z7d67hZreY99d4WiIPQ
+8/rO9tgaJwq1+zciLuLErxgz13mkKbQgbQ79gbd76vcZ+FhqkKK9WstD3Qr2ZHDE
+astA8cTcPYv51DZ0Zue3xsvNUsyLrVGn4PNvABEBAAG0JVdoaXRlUGFja2V0IDx3
+aGl0ZXBhY2tldEBzaWdhaW50Lm9yZz6JATkEEwEIACMFAlXNfgwCGwMHCwkIBwMC
+AQYVCAIJCgsEFgIDAQIeAQIXgAAKCRCyuaK7+vbuLuB+B/9vplRJNzmGx0MPiYX3
+AJZiBaQAAimDDbkpz6xN+KjRJqd+z0D/TfT9CE0REscPV4APpxE8kVMUwSgOya+Q
+IDzfKu1eONiBhzIB2N7xkc9TGbkbkH9OaRRZEfHmYEFHuLZvXC6ply8a3y1Nsg7c
+uxbXlTCCr19Yq9TowvUFjhYcOOLYijo0ew0TReVDVquH1M6od+ijVhuT9ged0aZe
+YUOg1whWFjGSToFEu4S0y4SUNo5q0x2Wn18uPQXqnKrDjiQKNsWvZUXMqh6em3RF
+3Ga87IMroQYq5lzob4AwMgYKSPCKG1FTz8460xdWO8xQOIfjeIcnT7qJ3dA58dSq
+2ftyuQENBFXNfgwBCADsMzQ7X1ZbibgqHzpWf/C0vBce9Arr9Mcz7yGtZqFylw+Q
+mWGNRmd5sHVDXu33vDFNYLMsTJZ/7jTnpg8P/GLQC7m1GzB9dq5k0icbax7I8tRX
+3Peedrvi91ST7/U2N1xm2AHRbZzdtHB07eWk1/4rcEoHUwxESqtn6FnWMZPKf2+x
+8lYWipMRDrgefYTKDeOjntNsvRWqQQ5jIEHYtFBscblvyGjO4iJP2veuRlUUI2uY
+Mit9KINsjwIgoJ4v+sUdZAiVZC+sXBYcO9BpXB46tBOedn9ekGeYPvZUW4B+Ae3D
+F9GbkFNixgCNtSzxaygYZZUdaF+q445icm0wsIcJABEBAAGJAR8EGAEIAAkFAlXN
+fgwCGwwACgkQsrmiu/r27i50+gf/f2iacXu2b+Tz5nJOjq8JHzSOKOU7IE7sjbSZ
+IPnRLffMqM3/qc8viZJ2P+YMYgx9t0qz16VjUbtu/kOB0FIQ0aYVWIOGrVAJjTA1
+mWsy1buztRQwd9H+DGfIZiciAYi+TCBAuyWt7ZUoiDb4gmqWDAzapbtCJXBvIO2j
+7zaZbKhjBuaI42lWhJwPoXnySWRteIs4ii+oAF6+jDnUmY1M8lCr21Ukj9JUhZrM
+HoZDP9YN8jXC+25hF3Z34z6jJ8W4VeI5ViL6XmreA8wB9yyjnAxG5WXv1vkhsogB
+vXT/kDEIeMeXl+yI8D+nzi3J1BdSn+4Xk3WsWFcv/G/1qc2ynQ==
+=++w/
+-----END PGP PUBLIC KEY BLOCK-----
+
 -----------------------------
