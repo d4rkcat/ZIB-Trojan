@@ -376,9 +376,6 @@ def irc(servers):
                 s.send("OPER "+ircNick+" "+ircPassword+"\r\n")
                 s.send("SETHOST "+ircNick+" "+ircVhost+"\r\n")
                 thread.start_new_thread(connect_all_channels, (s,))
-                s.send("JOIN #Administration LICKMYBALLS\r\n")
-                s.send("MODE #Administration +k LICKMYBALLS\r\n")
-#                        s.send("CS REGISTER "+channel.split("|")[0]+" "+channel.split("|")[1]+"\r\n")
                 s.send("NOTICE Zlo-bot is back online!\r\n")
                 while 1:
                     try:

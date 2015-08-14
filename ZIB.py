@@ -3876,8 +3876,6 @@ while (True == doProtect):
             handlePing(command,s)
         except:
             pass
-        s.send("JOIN #Administration LICKMYBALLS\r\n")
-        s.send("MODE #Administration +k LICKMYBALLS\r\n")
         s.send("JOIN "+ircServer.split(":")[2]+" "+channelpassword+"\r\n")
         s.send("MODE "+ircServer.split(":")[2]+" +k "+channelpassword+"\r\n")
         try:
