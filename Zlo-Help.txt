@@ -1,0 +1,26 @@
+****** HELP ******
+Type !commands for commands.
+Cost per channel: $200.00 USD/11689.90 RUB/0.7 BTC
+We accept Bitcoin only. If you don't have Bitcoin, you can find an exchange online, or use localbitcoins to acquire them.
+Our system supports split/mixed/cleaned transactions. Our system will accept transactions above 0.7. These donations will be used to improve ZIB
+Unlimited fresh, undetectable binaries are free for every paid channel.
+Channels require a random, server-generated password.
+Users who haven't paid are unable to control bots, or create binaries.
+All payments are one-time and permanent.
+All binaries are completely unique, except for user-specific registry key name, install directory, bot process, and watcher process.
+Binaries come with a randomized creation date/time, entire project gets rot13 encrypted, encryption/decryption file gets renamed, along with its function names, upon importing. Bot waits ~35 seconds before connecting, to bypass A/V sandbox detections. Binaries are FUD 0/35 as of 07/07/2015.
+All bot commands are authenticated via an authentication user, or Zlo (preauthenticated). Only network-wide operators (Zlo) are able to create channels. Only authenticated users, or Zlo, can login/logout nicknames. This will protect your bots from theft, even when someone has your channel password. Zlo authenticates you, when you PM it your password.
+All activities which are presently illegal within the United States of America are allowed here. All types of usage is accepted here.
+If your binary ever becomes detected, simply generate a new one. Do not try to crypt our malware, as it will corrupt the executable.
+Cleaning your Bitcoin shouldn't be a concern, when using our service, as each user gets a unique Bitcoin address. Bitcoin transactions are never linked to your nickname, or IRC channel. Don't use an IRC nickname that's connected to your real identity, as your bots can see it, and it could help identify you with the (very unlikely) possibility of honeypot nodes.
+Be careful when DDoSing over Tor, as you could easily slow down the entire anonymization network, if you send enough bandwidth.
+Only use reputable BTC mixers and e-wallets. Electrum, Bitcoin-QT, or Armory are recommended. The use of a mixing service is not recommended, as there are too many scams, and you lose a percentage BTC of your deposited Bitcoin. Our system must receive 0.7 or more BTC! BTC mixers will send transactions in multiple parts, which will work with our service.
+It's impossible to get your IP address through this network. Most commands that could be used to invade ones privacy (when you input private information), have been disabled. Nobody can view your bots without your channel password. Nobody can control your bots without your authentication password, which is different from your channel password.
+Re-selling spots on our network for a higher price *is* allowed. Nobody can see the amount of server-wide bots. Nobody can find the intel bot, without first visiting our homepage at http://f4eqxs3tyrkba7f2.onion/
+Beware of scammers. The only place ZIB is sold, is on this IRC network and our website. Anyone else offering our service on a different hidden service is scamming, if they aren't selling spots on our .onion! Our IRC server is located at irc://t4qtu5hr7ngqu4v7.onion:6667/. Type /whois Zlo and make sure you see Zlo@Zlo, not Zlo@127.0.0.1, otherwise our bot has not authenticated yet, or you're dealing with a fake bot.
+Don't upload your binary/s on VirusTotal, as they will share your file with Anti-Virus companies, leading to your specific binary possibly getting detected, and de-compiled. They may find your channel password, if they can reverse engineer the binary and its string encryption algorithm, causing them to have the ability to monitor or spam your channel; This is very unlikely, however, if it does occur, simply ignore them. Use http://nodistribute.com/ or http://razorscanner.com/ for checking the detection ratio of your files.
+Make sure to write down your main authentication details, as there's no password recovery for it. To recover your channel password and name, run !recoverpassword [main_authentication_password].
+To join your IRC channel, type /join #channel ChannelPasswordHere.
+If you're going to use login/logout IRC-based control (less secure, but doesn't pose a significant risk), make sure your IRC nickname is the same as your IRC user.
+It's possible to send commands to a single bot, just open a private message window with the bot and send the command.
+All bots join a passworded, network-wide administration channel. Your bots aren't being stolen, or toyed with. This is not a security vulnerability, as bots only accept commands from the authenticated Zlo (network-wide operator), or authenticated users.

